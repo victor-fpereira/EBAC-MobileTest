@@ -1,6 +1,6 @@
 Lista de programas necessários para a execução de scripts no Android mobile
 
-*  App demo do Webdriver.io
+* App demo do Webdriver.io
 * Android Studio
 * Android Inspector
 * Appium Server
