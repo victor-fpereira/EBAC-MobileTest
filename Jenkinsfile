@@ -16,8 +16,6 @@ pipeline {
             }
         }
 
-        sa
-
         stage('Checkout') {
             steps {
                 // Checkout your source code from a version control system (e.g., Git)
