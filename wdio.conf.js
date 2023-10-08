@@ -36,7 +36,7 @@ exports.config = {
     }],
 
    
-    logLevel: 'silent',
+    logLevel: 'info',
        
     waitforTimeout: 10000,
    
