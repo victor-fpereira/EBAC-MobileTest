@@ -6,7 +6,8 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout your source code from a version control system (e.g., Git)
-                git 'https://github.com/victor-fpereira/EBAC-MobileTest/tree/sauce-labs_jenkins'
+                git 'https://github.com/victor-fpereira/EBAC-MobileTest/'
+                git checkout 'sauce-labs_jenkins'
             }
             
         }
