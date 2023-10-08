@@ -1,6 +1,6 @@
 pipeline {
 
-    agent { 'Localhost' }
+    agent { label 'Localhost'}
 
     stage('Checkout') {
         // Checkout your source code from a version control system (e.g., Git)
