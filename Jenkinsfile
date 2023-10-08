@@ -6,7 +6,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout your source code from a version control system (e.g., Git)
-                checkout([$class: 'GitSCM', branches: [[name: 'sauce-labs_jenkins']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/victor-fpereira/EBAC-MobileTest/']]])              
+                git branch: 'sauce-labs_jenkins', url: 'https://github.com/victor-fpereira/EBAC-MobileTest'
             }
             
         }
