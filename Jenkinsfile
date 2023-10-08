@@ -13,7 +13,7 @@ pipeline {
 
         stage('Build and Test') {
             steps {
-                npm test
+                bat 'npm test'
             }
         }
     }    
